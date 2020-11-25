@@ -19,8 +19,8 @@ main {
 
 article {
     text-align: justify;
-}
 
+}
 
 header {
     color: skyblue;
@@ -37,7 +37,7 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
+    float: right;
     margin-right: 15px;
 }
 
@@ -52,6 +52,13 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+img.friends {
+    width: 50%;
+}
+
+img.FRIENDS {
 }
 
 
