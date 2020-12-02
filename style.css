@@ -3,8 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
-    
+    background-color:aliceblue
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -19,6 +18,7 @@ main {
 
 article {
     text-align: justify;
+    margin: 15px;
 }
 
 div {
@@ -28,6 +28,7 @@ div {
 header {
     color: rgb(black);
     text-align: center;
+    border: dashed;
 }
 
 
@@ -46,21 +47,55 @@ div.Friends1 {
 img.FRIENDS1 {
     float: left;
     margin: 15px;
+    width: 40%;
 }
 
 img.FRIENDS2 {
     float: right;
     margin: 15px;
+    width: 40%;
 }
 
 img.jennifer {
     float: left;
-    margin: 15px;
+    margin: 10px;
+    width: 30%;
 }
 
 img.courteney {
+    float: right;
+    margin: 15px;
+    width: 30%;
+}
+
+img.lisa {
     float: left;
     margin: 15px;
+    width: 25%;
+}
+
+img.matthew {
+    float: right;
+    margin: 15px;
+    width: 25%;
+}
+
+img.matt {
+    float: left;
+    margin: 15px;
+    width: 25%;
+}
+
+img.david {
+    float: right;
+    margin: 15px;
+    width: 25%;
+}
+
+img.friendscastprijzen{
+    float: left;
+    margin: 15px;
+    width: 30%;
 }
 
 .smalltext {
@@ -79,7 +114,7 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin: 15px;
     padding: 0;
     background-color: #dddddd;
     overflow: hidden;
